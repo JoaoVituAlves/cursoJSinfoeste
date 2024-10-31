@@ -2,7 +2,7 @@ import {SobreNos} from './components/sobre-nos/sobre-nos';
 import {Duvidas} from './components/duvidas/duvidas';
 import {Intro} from './components/intro/intro';
 import {Mapa} from './components/mapa/mapa';
-import {Cursos} from './components/cursos/cursos';
+import {Cursos} from './components/cursos/curso';
 import {Footer} from './components/footer/footer';
 
 export const Home = () => {
@@ -11,9 +11,9 @@ export const Home = () => {
       <Intro />
       <SobreNos />
       <Cursos />
-      <Mapa />
+      {/*<Mapa />
       <Duvidas />
-      <Footer />
+      <Footer />*/}
     </>
   );
 };
