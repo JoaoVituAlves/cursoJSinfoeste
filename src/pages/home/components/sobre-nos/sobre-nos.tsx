@@ -8,7 +8,7 @@ export const SobreNos  = () => {
     return (
         <Wrapper>
             <Title> Sobre Nós</Title>
-            <SubTitle>console.log ("hello world")</SubTitle>
+           
             {
                 cards.map((content) => (
                     <Card key={content.id}>
